@@ -1,7 +1,12 @@
 import React from "react";
+import "./BtnDataFetch.css";
 
 const BtnDataFetch = (props) => {
-	return <button onClick={props.click}>Dodaj użytkownika</button>;
+	return (
+		<button className='btn' onClick={props.click}>
+			Dodaj użytkownika
+		</button>
+	);
 };
 
 export default BtnDataFetch;
