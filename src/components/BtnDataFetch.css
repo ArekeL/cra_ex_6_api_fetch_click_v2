@@ -6,10 +6,10 @@
 	margin: 20px auto 10px auto;
 	border-radius: 12px;
 	border: 2px solid aliceblue;
+	cursor: pointer;
 }
 
 .btn:hover {
-	cursor: pointer;
 	background-color: black;
 	transition: background-color 300ms linear;
 }
